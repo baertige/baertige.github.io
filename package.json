@@ -1,0 +1,19 @@
+{
+  "name": "baertige-static",
+  "version": "1.0.0",
+  "description": "Static website for baertige-gestalten.de",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baertige/baertige.github.io.git"
+  },
+  "license": "MIT",
+  "config": {
+    "port": "3000"
+  },
+  "scripts": {
+    "start": "http-server -p $npm_package_config_port ./"
+  }
+}
